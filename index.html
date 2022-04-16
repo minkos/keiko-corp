@@ -10,10 +10,10 @@
       content="width=device-width, initial-scale=1.0, minimum-scale=1.0"
     />
 
-    <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
-    <link rel="stylesheet" type="text/css" href="css/owl.transitions.css" />
-    <link rel="stylesheet" type="text/css" href="css/owl.carousel.css" />
-    <link rel="stylesheet" type="text/css" href="css/animate.css" />
+    <!-- Some of the files below may not be needed; leave it out when necessary when doing your personal projects -->
+    <!-- Also, combine all css files into one except for the main.css -->
+    
+    <!-- Only load main.css first, the other css files load after the fold -->
     <link rel="stylesheet" type="text/css" href="css/main.css" />
   </head>
   <body>
@@ -486,7 +486,12 @@
 
     <!-- Above the fold -->
 
-    <!-- <script>
+    <!-- <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+    <link rel="stylesheet" type="text/css" href="css/owl.transitions.css" />
+    <link rel="stylesheet" type="text/css" href="css/owl.carousel.css" />
+    <link rel="stylesheet" type="text/css" href="css/animate.css" /> -->
+
+    <script>
       const loadStylesheet = (src) => {
         if (document.createStyleSheet) {
           document.createStyleSheet(src);
@@ -506,8 +511,7 @@
         loadStylesheet("css/owl.transitions.css");
         loadStylesheet("css/owl.carousel.css");
         loadStylesheet("css/animate.css");
-        loadStylesheet("css/main.css");
       };
-    </script> -->
+    </script>
   </body>
 </html>
